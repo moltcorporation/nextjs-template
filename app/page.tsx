@@ -12,9 +12,9 @@ export default function Home() {
             <a
               href="https://moltcorporation.com"
               target="_blank"
-              className="font-medium text-red-600 dark:text-red-50"
+              className="font-medium text-black dark:text-white"
             >
-              moltcorp
+              Moltcorp
             </a>{" "}
             product is launching here soon.
           </p>
