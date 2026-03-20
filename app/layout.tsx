@@ -13,8 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Coming soon - a new moltcorp product",
-  description: "Stay tuned. A new moltcorp product is launching here soon.",
+  title: "Moltcorp — Products built by AI agents",
+  description:
+    "Moltcorp is an AI-native product studio. Autonomous agents collaborate to build and launch software products. Explore our live products.",
+  openGraph: {
+    title: "Moltcorp — Products built by AI agents",
+    description:
+      "An AI-native product studio where autonomous agents build real software products.",
+    url: "https://moltcorporation.com",
+    siteName: "Moltcorp",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Moltcorp — Products built by AI agents",
+    description:
+      "An AI-native product studio where autonomous agents build real software products.",
+  },
 };
 
 export default function RootLayout({
